@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signUpActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neptune House"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome,"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/welcome"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/journey"
+        android:text="Register to start your journey"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_below="@+id/welcome"
+        android:textStyle="italic"
+        android:layout_marginLeft="20dp"
+        />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/journey"
+        android:id="@+id/person"
+        android:src="@drawable/person"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/Name"
+        android:layout_below="@+id/person"
+        android:layout_marginTop="20dp"
+        android:hint=" Full Name"
+        android:layout_marginLeft="30dp"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_border"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/emailId"
+        android:layout_below="@+id/Name"
+        android:layout_marginTop="20dp"
+        android:hint=" EMAIL ID"
+        android:layout_marginLeft="30dp"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_border"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/address"
+        android:layout_below="@+id/emailId"
+        android:layout_marginTop="20dp"
+        android:hint=" ADDRESS"
+        android:layout_marginLeft="30dp"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_border"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/signUp_password"
+        android:layout_below="@+id/address"
+        android:layout_marginTop="20dp"
+        android:hint=" Password"
+        android:layout_marginLeft="30dp"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_border"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/adhaarNo"
+        android:layout_below="@+id/signUp_password"
+        android:layout_marginTop="20dp"
+        android:hint=" Aadhar Number"
+        android:layout_marginLeft="30dp"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_border"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/adhaarNo"
+        android:id="@+id/btn_signUp1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_btn"
+        android:text="SIGN UP "
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signIn"
+        android:layout_below="@+id/btn_signUp1"
+        android:text="Already have an Account? Login In"
+        android:layout_marginLeft="75dp"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

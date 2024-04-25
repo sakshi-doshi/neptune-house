@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "985516308805",
+    "project_id": "neptune-house-79951",
+    "storage_bucket": "neptune-house-79951.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985516308805:android:0290728e1d4fe0fcfb262c",
+        "android_client_info": {
+          "package_name": "com.neptune.neptunehouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985516308805-d6fa0lsmrmd8s6eao6o47e6bii33tk4j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neptune.neptunehouse",
+            "certificate_hash": "7f28164ee2ebb405c7ab89424b0114180b18c17d"
+          }
+        },
+        {
+          "client_id": "985516308805-n6lkb0d95q2laltmhjfgnj3q3c3e4acr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB25cBVg6bDP1QRegD1AjItnJSOyFnKsck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985516308805-n6lkb0d95q2laltmhjfgnj3q3c3e4acr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

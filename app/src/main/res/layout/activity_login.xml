@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Neptune House"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:id="@+id/textview"
+        android:text="Login"
+        android:layout_marginTop="80dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="140dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Email Id "
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        android:id="@+id/textview1"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textview"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview1"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/linear1">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/person"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="EMAIL ID"
+            android:layout_marginTop="8dp"
+            android:id="@+id/emailId2"
+            android:layout_below="@+id/textview1"
+            android:padding="10dp"
+            />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Password"
+        android:layout_marginTop="270dp"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        android:id="@+id/password1"
+        android:layout_marginLeft="20dp"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password1"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/lock"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:hint="PASSWORD"
+            android:layout_marginTop="8dp"
+            android:id="@+id/password2"
+            android:padding="10dp"
+            android:layout_below="@+id/textview1"
+            />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:layout_below="@id/password1"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/round_btn"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/login2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not a user? Click here to Sign up"
+        android:textStyle="normal"
+        android:textSize="15dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/click"
+        android:layout_below="@+id/login2"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
